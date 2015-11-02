@@ -44,15 +44,16 @@ Current Status
 * GPS
 * Wifi
 * Bluetooth
-* Audio ( CM music player Eleven crashes playing music but other players from play store work e.g. Shuttle )
-* Video playback (software decoding) - not all codecs supported as ffmpeg hasn't been added yet
+* Audio
+* Video playback (software decoding)
+* External SD Card
 
 All of the above need a lot more testing but basically works. Wifi is probably unstable just as in LP.
 
 ### Not Working:
 
 * Phone/Data
-* Internal/External storage - Marshmallow sdcard handling is completely different. SD card not mounting properly and Settings -> Storage crashes if sdcard is present.
+* Internal SD Card - Marshmallow sdcard handling is completely different - Internal SD is not used. Mount directly in fstab?
 * Camera
 * Video playback (hardware decoding)
 * FM Radio
