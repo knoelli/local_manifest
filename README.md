@@ -47,7 +47,7 @@ Current Status
 * Audio
 * Video playback (software decoding)
 * External SD Card
-* Phone/Data - Needs testing! Rild & libril now built from source using custom libril based on CM13 hardware/ril-caf with a [commit][1] from @LegacyHuawei. Settings -> Mobile Networks crashes settings and the ril but I think this is a CM issue as this has been reported on other devices.
+* Phone/Data - Needs testing! Rild & libril now built from source using custom libril based on CM13 hardware/ril-caf with a [commit][1] from @LegacyHuawei.
 
 All of the above need a lot more testing but basically works. Wifi is probably unstable just as in LP.
 
