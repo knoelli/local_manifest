@@ -48,13 +48,13 @@ Current Status
 * Video playback (software decoding)
 * External SD Card
 * Phone/Data - Needs testing! Rild & libril now built from source using custom libril based on CM13 hardware/ril-caf with a [commit][1] from @LegacyHuawei.
+* Camera
 
 All of the above need a lot more testing but basically works. Wifi is probably unstable just as in LP.
 
 ### Not Working:
 
 * Internal SD Card - Marshmallow sdcard handling is completely different - Internal SD is not used. Mount directly in fstab?
-* Camera
 * Video playback (hardware decoding)
 * FM Radio
 
