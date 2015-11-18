@@ -46,7 +46,7 @@ Current Status
 * Bluetooth
 * Audio
 * Video playback (software decoding)
-* External SD Card
+* External SD Card - Set as primary storage by default
 * Phone/Data - Needs testing! Rild & libril now built from source using custom libril based on CM13 hardware/ril-caf with a [commit][1] from @LegacyHuawei.
 * Camera
 
