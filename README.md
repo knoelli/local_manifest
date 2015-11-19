@@ -46,7 +46,7 @@ Current Status
 * Bluetooth
 * Audio
 * Video playback (software decoding)
-* External SD Card - Set as primary storage by default
+* Internal & External SD Cards - Internal configured as primary storage by default as in previous roms.
 * Phone/Data - Needs testing! Rild & libril now built from source using custom libril based on CM13 hardware/ril-caf with a [commit][1] from @LegacyHuawei.
 * Camera
 
@@ -54,7 +54,6 @@ All of the above need a lot more testing but basically works. Wifi is probably u
 
 ### Not Working:
 
-* Internal SD Card - Marshmallow sdcard handling is completely different - Internal SD is not used. Mount directly in fstab?
 * Video playback (hardware decoding)
 * FM Radio
 
