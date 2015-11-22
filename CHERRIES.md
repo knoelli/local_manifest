@@ -12,4 +12,4 @@ CM13-Y300 Cherry-pick list
 
 # system/vold
 
-    117510
+    117510 Patch Set 4 (PS5 and above currently cause a NullPointerException)
