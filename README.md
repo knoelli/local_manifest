@@ -19,17 +19,11 @@ Build Instructions
  
         repo sync
 
-4. Cherry-pick required commits from gerrit
-
-        Use repopick to cherry-pick each commit listed in CHERRIES.md in the specified order
-		./build/tools/repopick.py {COMMIT_ID}
-		
-
-5. Initialize the build environment and apply patches
+4. Initialize the build environment and apply patches
 
         source build/envsetup.sh
-    
-6. Build the ROM
+
+5. Build the ROM
 
         For Y300:
             brunch u8833
