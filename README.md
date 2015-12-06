@@ -27,6 +27,10 @@ Build Instructions
 
         For Y300:
             brunch u8833
+        For G510:
+            brunch u8951
+        For G330:
+            brunch u8825
 
 
 Current Status
