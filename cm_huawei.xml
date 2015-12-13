@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
    <manifest>
+     <remote name="bucket" fetch="https://bitbucket.org" revision="master" />
 
      <!-- Device Folders, Kernel & Proprietary BLOBS -->
      <project path="vendor/huawei" name="SlimLP-Y300/proprietary_vendor_huawei" remote="github" revision="cm-13.0"/>
@@ -23,6 +24,10 @@
 
      <!-- Stlport -->
      <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-13.0" />
+
+	 <!-- UBERTC 4.9 kernel toolchain -->
+     <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />
+     <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.9" groups="pdk,linux,arm" remote="bucket"/>
 
 </manifest>
 
