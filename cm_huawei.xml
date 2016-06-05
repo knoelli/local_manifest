@@ -5,7 +5,7 @@
      <!-- Device Folders, Kernel & Proprietary BLOBS -->
      <project path="vendor/huawei" name="CM13-Y300/proprietary_vendor_huawei" remote="github" revision="cm-13.0"/>
      <project path="kernel/huawei/huawei-kernel-3.4" name="SlimLP-Y300/chil360-kernel" remote="github" revision="mm6.0"/>
-     <project path="device/huawei/msm7x27a-common" name="CM13-Y300/android_device_huawei_msm7x27a-common" remote="github" revision="cm-13.0"/>
+     <project path="device/huawei/msm7x27a-common" name="knoelli/android_device_huawei_msm7x27a-common" remote="github" revision="cm-13.0"/>
      <project path="device/huawei/u8833" name="CM13-Y300/android_device_huawei_u8833" remote="github" revision="cm-13.0"/>
      <project path="device/huawei/u8951" name="CM13-Y300/android_device_huawei_u8951" remote="github" revision="cm-13.0"/>
      <project path="device/huawei/u8825" name="CM13-Y300/android_device_huawei_u8825" remote="github" revision="cm-13.0"/>
