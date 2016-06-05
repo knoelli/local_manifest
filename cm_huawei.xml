@@ -29,10 +29,6 @@
      <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />
      <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.9" groups="pdk,linux,arm" remote="bucket"/>
 
-	 <!-- OTAUpdater -->
-     <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
-     <project path="packages/apps/OTAUpdater" name="CM13-Y300/packages_apps_OTAUpdater" remote="github" revision="cm-13.0"/>
-
 </manifest>
 
  
